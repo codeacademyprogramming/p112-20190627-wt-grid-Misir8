@@ -1,0 +1,115 @@
+@media (min-width: 769px){
+    .container{
+        max-width: 1110px;
+    }
+    html{
+        font-size: 18px;
+    }
+    header .toggle{
+        margin-right: 20px;
+    }
+     header h1{
+        font-size: 3rem;
+        padding-right: 800px;
+        padding: 0;
+    }
+    header .container .header-content{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 300px;
+    }
+    body #hottest-headphone h2{
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    body .gallery-info{
+        display: flex;
+        flex-direction: row;
+    }
+    body #hottest-headphone .gallery-info .item{
+        max-width: 100%;
+        flex-basis: 31%;
+        margin-bottom: 300px ;
+        margin: auto;
+    }
+    body #hottest-headphone .gallery-info .item .top span{
+        font-size: .7rem;
+    }
+    body #hottest-headphone .gallery-info .item .item-descriptcion h3{
+        padding: 20px 20px;
+        font-size: 1rem;
+    }
+    body #hottest-headphone .gallery-info .item .item-descriptcion p{
+        text-align: left;
+        color: #fff;
+        font-size: .85rem;
+        padding: 0 10px 20px;
+    }
+    body #new-headphone .new-item{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    body #new-headphone .new-item a{
+        width: 23%;
+        margin: 5px auto;
+    }
+    #new-headphone h2{
+        font-size: 1.5rem;
+    }
+    .hurry-item{
+        display: flex;
+        justify-content: space-around;
+    }
+    #hurry-up p{
+        text-align: left;
+    }
+    body #hurry-up h2{
+        font-size: 1.8rem;
+    }
+    body #what-do .what-do-item{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    body #what-do h2{
+        font-size: 1.8rem;
+    }
+    body #what-do .what-content{
+        text-align: left;
+        flex-basis: 23%;
+        margin: 0 auto;
+    }
+    .footer-item{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-item p{
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0 110px 0 270px;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px){
+    html{
+        font-size: 18px;
+    }
+    .container{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    #new-headphone .new-item{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #new-headphone .new-item a{
+        width: 47%;
+        margin: 5px auto;
+    }
+}
+
